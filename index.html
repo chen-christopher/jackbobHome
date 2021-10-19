@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>JackBob</title>
+  </head>
+  <body>
+    <!-- <div class="backgroundDiv"></div> -->
+    <div class="backgroundDiv1"></div>
+    <div class="backgroundDiv2"></div>
+    <div class="titleDiv">
+      <h1>The Daily Life of JackBob</h1>
+    </div>
+    <div class="jackbobDiv">
+      <img class="thunderImg" id="thunder1" src="./images/thunder.png" />
+      <img class="thunderImg" id="thunder2" src="./images/thunder.png" />
+      <img class="thunderImg" id="thunder3" src="./images/thunder.png" />
+      <img class="thunderImg" id="thunder4" src="./images/thunder.png" />
+      <img id="jackbobImg" src="images/turnOff.png" />
+      <button class="playButton empty">PLAY!</button>
+      <svg
+        id="powerButton"
+        version="1.1"
+        id="Layer_1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 2000 2000"
+        style="enable-background: new 0 0 2000 2000"
+        xml:space="preserve"
+      >
+        <style type="text/css">
+          .st0 {
+            fill: none;
+            stroke: #73250e;
+            stroke-width: 7;
+            stroke-miterlimit: 10;
+          }
+          .st1 {
+            fill: none;
+            stroke: #000000;
+            stroke-width: 10;
+            stroke-miterlimit: 10;
+          }
+          .st2 {
+            fill: #a83e13;
+          }
+          .st3 {
+            fill: none;
+            stroke: #73250e;
+            stroke-width: 100;
+            stroke-linecap: round;
+            stroke-miterlimit: 10;
+          }
+        </style>
+        <path class="st0" d="M2130.44,1386.7" />
+        <path class="st1" d="M1393.48,887.08" />
+        <path class="st0" d="M1071.75,1995.27" />
+        <path class="st0" d="M359.26,1441.18" />
+        <path class="st1" d="M824.74,890.89" />
+        <g>
+          <circle class="st2" cx="998.96" cy="1002.31" r="992.96" />
+        </g>
+        <g>
+          <g>
+            <path
+              class="st3"
+              d="M1282.3,503.88c237.67,95.58,362.99,309.26,362.99,581.13c0,356.83-289.29,646.33-646.33,646.33
+			c-356.83,0-646.33-289.29-646.33-646.33c0-256.82,133.71-464.49,353.86-576.45"
+            />
+          </g>
+          <line class="st3" x1="998.96" y1="1010.23" x2="998.96" y2="189.51" />
+        </g>
+      </svg>
+      <svg
+        version="1.1"
+        id="leftButton"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 2000 2000"
+        style="enable-background: new 0 0 2000 2000"
+        xml:space="preserve"
+      >
+        <style type="text/css">
+          .st0 {
+            fill: #a83e13;
+          }
+        </style>
+        <polygon
+          class="st0"
+          points="153.2,1054.08 1907.91,16.93 1907.91,1995 "
+        />
+      </svg>
+      <svg
+        version="1.1"
+        id="rightButton"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 2000 2000"
+        style="enable-background: new 0 0 2000 2000"
+        xml:space="preserve"
+      >
+        <style type="text/css">
+          .st0 {
+            fill: #a83e13;
+          }
+        </style>
+        <polygon
+          class="st0"
+          points="153.2,1054.08 1907.91,16.93 1907.91,1995 "
+        />
+      </svg>
+
+      <div class="jackbobCanvas">
+        <div class="jackbobStory jackbob0">
+          <h1>The Daily Life of Jackbob</h1>
+        </div>
+        <div class="jackbobStory jackbob1 empty">
+          <h1>An Encounter With Granny</h1>
+          <img src="images/panel5.png" />
+          <!-- <button class="playButton">PLAY!</button> -->
+        </div>
+        <div class="jackbobStory jackbob2 empty">
+          <h1>Airing Soon!</h1>
+          <img src="images/Turn_Off.png" />
+          <!-- <button class="playButton">PLAY!</button> -->
+        </div>
+        <div class="jackbobStory jackbob3 empty">
+          <h1>Airing Soon!</h1>
+          <img src="images/Turn_Off.png" />
+          <!-- <button class="playButton">PLAY!</button> -->
+        </div>
+        <div class="jackbobStory jackbob4 empty noSignal">
+          <img src="images/noSignal.gif" />
+        </div>
+      </div>
+      <div class="channelSwitch empty"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
